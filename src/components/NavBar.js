@@ -8,9 +8,9 @@ function NavBar() {
         <div className="navbar-brand align-self-center">
           <img src={image} alt="Profile Image" className="profile-image" />
         </div>
-        <a href="/" className="nav-item nav-link align-self-center"><h3>Home</h3></a>
-        <a href="/about" className="nav-item nav-link align-self-center"><h3>About</h3></a>
-        <a href="/projects" className="nav-item nav-link align-self-center"><h3>Projects</h3></a>
+        <a href="/" className="nav-item nav-link align-self-center"><h4>Home</h4></a>
+        <a href="/about" className="nav-item nav-link align-self-center"><h4>About</h4></a>
+        <a href="/projects" className="nav-item nav-link align-self-center"><h4>Projects</h4></a>
       </div>
     </nav>
   );
