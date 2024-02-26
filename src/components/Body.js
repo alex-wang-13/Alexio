@@ -1,6 +1,13 @@
 function Body() {
   return (
-    <div style={{paddingBottom: 10000}}></div>
+    <div className="container-fluid p-4">
+      <div className="row">
+        <h1 className="">Bio</h1>
+        <p className="text-justify">
+          I am a programmer.
+        </p>
+      </div>
+    </div>
   );
 }
 
