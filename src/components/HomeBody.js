@@ -11,7 +11,7 @@ function HomeBody() {
           <div className="card m-3 bg-secondary">
             <div className="row">
               <div className="col-md-4">
-                <img src={image} alt="Profile icture" className="card-img-top profile-image" />
+                <img src={image} alt="Profile icture" className="card-img-top img-fluid profile-image" />
               </div>
               <div className="col-md-8">
                 <div className="card-body">
