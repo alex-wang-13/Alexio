@@ -1,11 +1,11 @@
 import NavBar from '../components/NavBar';
-import Body from '../components/Body';
+import HomeBody from '../components/HomeBody';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Body />
+      <HomeBody />
     </div>
   );
 }

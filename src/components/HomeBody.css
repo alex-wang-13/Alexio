@@ -1,0 +1,47 @@
+.profile-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 5% 5%;
+}
+
+#imagear {
+    position: relative;
+}
+
+#imagear-popup {
+    visibility: hidden;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 15%;
+
+    /* position popup */
+    position: absolute;
+    bottom: 110%;
+    z-index: 1;
+}
+
+#imagear:hover #imagear-popup {
+    visibility: visible;
+}
+
+#imagecs {
+    position: relative;
+}
+
+#imagecs-popup {
+    visibility: hidden;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 15%;
+
+    /* position popup */
+    position: absolute;
+    bottom: 110%;
+    z-index: 1;
+}
+
+#imagecs:hover #imagecs-popup {
+    visibility: visible;
+}
