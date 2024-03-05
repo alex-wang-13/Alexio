@@ -1,9 +1,9 @@
-import './HomeBody.css';
+import './HomePage.css';
 import image from '../images/cats-soup-img.webp';
 import imagecs from '../images/cats-soup-img.webp';
 import imagear from '../images/animal-rest-img.webp';
 
-function HomeBody() {
+function HomePage() {
   return (
     <div className="container-fluid bg-dark">
       <div className="row">
@@ -41,4 +41,4 @@ function HomeBody() {
   );
 }
 
-export default HomeBody;
+export default HomePage;
