@@ -1,16 +1,15 @@
-import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from '../components/NavBar';
-import HomeBody from '../components/HomeBody';
-
+import Layout from '../pages/Layout';
+import HomePage from '../pages/HomePage';
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
       <Routes>
-        <Route path="/" element={<HomeBody />} />
-        <Route />
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/about" element={<AboutBody />} /> */}
+        </Route>
       </Routes>
     </BrowserRouter>
   );
